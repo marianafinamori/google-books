@@ -1,0 +1,60 @@
+.coverContainer {
+    height: 300px;
+}
+
+img {
+    height: 100%
+}
+
+.googleBtn,
+.saveBtn {
+    line-height: 55px;
+    box-shadow: none;
+    background-color: transparent;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.1em;
+    border: 2px solid #d4c4bf;
+    color: #d4c4bf;
+    margin: 1%;
+    
+}
+
+.googleBtn {
+    left: 25%;
+}
+
+.divSummary {
+    background-color: black;
+    color: #d4c4bf;
+}
+
+.row {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.coverContainer {
+    border: 1px solid yellow;
+}
+
+.divCoverName {
+    background-color: #cfcfcf;
+    text-align: center;
+    margin-left: 3em;
+}
+
+.divSummary {
+    font-family: 'georgia-italic', sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding: 2%;
+    margin-left: 1em;
+    margin-right: 2em;
+}
+
+
