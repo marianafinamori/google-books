@@ -1,5 +1,29 @@
-nav {
-    height: 100px;
+.logo {
+    height: 140px;
+    background-color: #1a1a1a;
+    text-align: center;
+    padding-top: 30px;
+    color: #cfcfcf;
+    font-family: "Playfair Display", serif;
+    border-bottom: 1px solid #737373;
+}
+
+h1 {
+    font-size: 4.5em;
+}
+
+.nav-container {
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+.nav-link {
+    color: white;
+}
+
+a:hover {
+    color: #cfcfcf;
+    zoom: 1.1;
 }
 
 
