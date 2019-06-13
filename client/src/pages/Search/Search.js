@@ -54,9 +54,10 @@ class Search extends Component {
             .then((res) => {
                 this.setState({ books: res.data.items });
                 console.log("this.state.books: ", this.state.books);
-            });
+            })
 
     };
+
 
     render() {
         return (
