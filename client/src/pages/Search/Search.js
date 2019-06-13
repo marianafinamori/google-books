@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import List from "../../components/List";
-// import ListItem from "../../components/ListItem"
 import API from "../../utils/API";
 import Form from '../../components/Form';
 import './Search.css'
@@ -62,12 +61,11 @@ class Search extends Component {
     render() {
         return (
             <div>
-
                 <div>
-                                <Form 
-                                    handleFormSubmit={this.handleFormSubmit}
-                                    handleNameChange={this.handleNameChange} />
-                                <List books={this.state.books} handleSaveButton={this.handleSaveButton} />
+                    <Form
+                        handleFormSubmit={this.handleFormSubmit}
+                        handleNameChange={this.handleNameChange} />
+                    <List books={this.state.books} handleSaveButton={this.handleSaveButton} />
                 </div>
             </div>
         );
