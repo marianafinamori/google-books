@@ -24,12 +24,5 @@
     "mongojs": "^2.6.0",
     "mongoose": "^5.5.13",
     "morgan": "~1.9.1"
-  },
-
-  "homepage": "http://gitname.github.io/react-gh-pages",
-  "devDependencies": {
-    "nodemon": "^1.19.1",
-    "gh-pages": "^2.0.1"
   }
 }
-
