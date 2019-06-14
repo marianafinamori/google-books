@@ -7,7 +7,8 @@ img {
 }
 
 .googleBtn,
-.saveBtn {
+.saveBtn,
+.deleteBtn {
     line-height: 55px;
     box-shadow: none;
     background-color: transparent;
@@ -40,7 +41,7 @@ img {
 
 .row {
     width: 100%;
-    margin-bottom: 3%;
+    margin-top: 3%;
     text-align: center;
 }
 
@@ -61,7 +62,6 @@ img {
 .book-left {
     background-color: #d7ebf6;
 }
-
 
 .title {
     font-family: 'georgia-italic', sans-serif;
